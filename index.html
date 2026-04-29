@@ -557,10 +557,12 @@
           <a href="https://linkedin.com/in/sara-mescall" target="_blank">LinkedIn</a>
         </div>
       </div>
-      <div class="photo-placeholder">
-        <span>Photo</span>
-        <span>Coming Soon</span>
-      </div>
+      <img
+        src="images/web-photo.jpg"
+        alt="Photo of Sara M"
+        class="photo-placeholder"
+        onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<span style=\'font-size:0.7rem;color:var(--mid-grey);letter-spacing:0.07em\'>Photo of Sara M</span>');"
+      />
     </section>
 
     <!-- ABOUT -->
